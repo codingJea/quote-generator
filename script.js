@@ -26,10 +26,10 @@ function newQuote() {
     const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
 
     // Check if author field is blank
-    if (!quote.author) {
+    if (!quote.author || quote?.author == 'type.fit') {
         authorText.textContent = 'Unknown';
     } else {
-        authorText.textContent = quote.author;
+        authorText.textContent = quote?.author?.replace(/, type\.fit/, '');
     }
 
     // Check quote length to determine styling
@@ -54,7 +54,7 @@ async function getQuote() {
     } catch (error) {
         let errorCounter = 0;
         errorCounter++;
-        if(errorCounter > 10) {
+        if (errorCounter > 10) {
             alert(`Sorry, there's something is wrong with the page.`);
             return;
         }
