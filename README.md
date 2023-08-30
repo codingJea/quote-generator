@@ -45,7 +45,6 @@ To set up the project locally, follow these steps:
 
 - HTML5, CSS3, and JavaScript for building and styling the website.
 - Asynchronous fetch API for fetching quotes from a REST API.
-- [Your Favorite CSS Framework] (e.g., Bootstrap, Bulma) for responsive design.
 - Twitter API for posting quotes to Twitter.
 
 ## Contributing
