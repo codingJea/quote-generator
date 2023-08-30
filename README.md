@@ -1,8 +1,8 @@
-# Asynchronous Quote Generator with Twitter Integration
+# Quote Generator with Twitter Integration
 
 ![Website Preview](/quote-generator-preview.png) <!-- Add a screenshot or preview of your website -->
 
-Welcome to the Asynchronous Quote Generator project with Twitter integration! This is a mobile-responsive web application that fetches quotes from a REST API asynchronously and lets users post their favorite quotes to Twitter.
+Welcome to the Quote Generator project with Twitter integration! This is a mobile-responsive web application that fetches quotes from a REST API asynchronously and lets users post their favorite quotes to Twitter.
 
 ## Table of Contents
 
@@ -29,8 +29,8 @@ You can view a live demo of the website [here](https://jeaparker.github.io/quote
 
 To set up the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/jeaparker/async-quote-generator.git`
-2. Navigate to the project directory: `cd async-quote-generator`
+1. Clone the repository: `git clone https://github.com/jeaparker/quote-generator.git`
+2. Navigate to the project directory: `cd quote-generator`
 
 ## Usage
 
