@@ -1,8 +1,8 @@
-# Quote Generator with Twitter Integration
+# Quote Generator
 
 ![Website Preview](/quote-generator-preview.png) <!-- Add a screenshot or preview of your website -->
 
-Welcome to the Quote Generator project with Twitter integration! This is a mobile-responsive web application that fetches quotes from a REST API asynchronously and lets users post their favorite quotes to Twitter.
+Welcome to the Quote Generator project! This is a mobile-responsive web application that fetches quotes from a REST API asynchronously and lets users post their favorite quotes to Twitter.
 
 ## Table of Contents
 
