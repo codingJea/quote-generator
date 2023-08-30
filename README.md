@@ -1,4 +1,6 @@
 # Quote Generator
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 ![Website Preview](/quote-generator-preview.png) <!-- Add a screenshot or preview of your website -->
 
