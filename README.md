@@ -1,8 +1,8 @@
-# Asynchronous Quote Generator
+# Asynchronous Quote Generator with Twitter Integration
 
-![Website Preview](preview.png) <!-- Add a screenshot or preview of your website -->
+![Website Preview](/quote-generator-preview.png) <!-- Add a screenshot or preview of your website -->
 
-Welcome to the Asynchronous Quote Generator project! This is a mobile-responsive web application that fetches quotes from a REST API asynchronously, allowing users to explore and enjoy a variety of quotes.
+Welcome to the Asynchronous Quote Generator project with Twitter integration! This is a mobile-responsive web application that fetches quotes from a REST API asynchronously and lets users post their favorite quotes to Twitter.
 
 ## Table of Contents
 
@@ -20,8 +20,9 @@ You can view a live demo of the website [here](https://jeaparker.github.io/quote
 
 ## Features
 
-- Asynchronous fetch: Quotes are fetched from a REST API asynchronously, providing a seamless user experience without page refreshes.
-- Mobile-responsive design: The website is optimized for mobile devices, ensuring a consistent look and feel across different screen sizes.
+- Asynchronous fetch: Quotes are fetched from a REST API asynchronously, providing a seamless user experience.
+- Mobile-responsive design: The website is optimized for mobile devices, ensuring a consistent layout on different screen sizes.
+- Quote posting to Twitter: Users can share their favorite quotes on Twitter with a single click.
 - Random quote generation: Each time the user clicks a "Generate Quote" button, a new random quote is fetched and displayed.
 
 ## Getting Started
@@ -34,14 +35,16 @@ To set up the project locally, follow these steps:
 ## Usage
 
 1. Open `index.html` in your preferred web browser or deploy the project to a web server.
-2. Click the "Generate Quote" button to fetch and display a new random quote.
-3. Explore the mobile-responsive design by accessing the website from different devices.
+2. Click the "New Quote" button to fetch and display a new random quote.
+3. Click the "Tweet" button to post the current quote to your Twitter account.
+4. Explore the mobile-responsive design by accessing the website from different devices.
 
 ## Technologies Used
 
 - HTML5, CSS3, and JavaScript for building and styling the website.
 - Asynchronous fetch API for fetching quotes from a REST API.
 - [Your Favorite CSS Framework] (e.g., Bootstrap, Bulma) for responsive design.
+- Twitter API for posting quotes to Twitter.
 
 ## Contributing
 
